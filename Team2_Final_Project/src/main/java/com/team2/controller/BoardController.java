@@ -11,9 +11,4 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class BoardController {
 
-	@GetMapping("/test")
-	public void test() {
-		System.out.println("TeSt!");
-	}
-
 }
