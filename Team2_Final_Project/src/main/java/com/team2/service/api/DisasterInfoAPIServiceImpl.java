@@ -40,7 +40,7 @@ public class DisasterInfoAPIServiceImpl implements DisasterInfoAPIService {
 		Map<String, String> body = new HashMap<>();
 		body.put("ServiceKey", API_KEY);
 		body.put("pageNo", "1");
-		body.put("numOfRows", "30");
+		body.put("numOfRows", "200");
 		body.put("type", "xml");
 		// return
 		return RestAPIUtil.connHttpGetType(URL, head, body, DisasterInfoDTO.class);
